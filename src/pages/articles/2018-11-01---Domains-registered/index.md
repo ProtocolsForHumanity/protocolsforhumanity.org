@@ -5,6 +5,8 @@ layout: post
 draft: false
 path: "/posts/domains-registered/"
 category: "Admin"
+tags:
+  - administration
 description: Domains registered, web site in the works.
 ---
 
