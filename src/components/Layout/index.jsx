@@ -1,13 +1,29 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { StaticQuery, graphql } from 'gatsby'
 import '../../assets/scss/init.scss'
 
 const Layout = ({ children }) => {
   return (
-    <div className="layout">
-      <Helmet defaultTitle="" />
-      {children}
-    </div>
+    <StaticQuery
+      query={graphql`
+        site {
+          siteMetadata {
+            title
+          }
+        }
+      `}
+      render={({
+        site: {
+          siteMetadata: { title },
+        },
+      }) => (
+        <div className="layout">
+          <Helmet defaultTitle="{title}" />
+          {children}
+        </div>
+      )}
+    />
   )
 }
 
