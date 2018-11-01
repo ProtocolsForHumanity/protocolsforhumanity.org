@@ -1,6 +1,6 @@
 ---
 title: Domains registered
-date: "2018-11-01T00:00:00.000Z"
+date: "2018-11-01"
 layout: post
 draft: true
 path: "/posts/domains-registered/"
