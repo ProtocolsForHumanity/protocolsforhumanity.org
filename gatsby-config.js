@@ -3,11 +3,11 @@ const pxtorem = require('postcss-pxtorem')
 
 module.exports = {
   siteMetadata: {
-    url: 'https://lumen.netlify.com',
-    title: 'Blog by John Doe',
+    url: 'https://www.protocolsforhumanity.org',
+    title: 'Protocols for Humanity',
     subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-    copyright: '© All rights reserved.',
+      'Developing protocols that support access to basic needs for all humans.',
+    copyright: 'CC-BY-SA',
     disqusShortname: '',
     menu: [
       {
@@ -15,16 +15,12 @@ module.exports = {
         path: '/',
       },
       {
-        label: 'About me',
+        label: 'About',
         path: '/about/',
-      },
-      {
-        label: 'Contact me',
-        path: '/contact/',
       },
     ],
     author: {
-      name: 'John Doe',
+      name: 'Protocols for Humanity',
       email: '#',
       telegram: '#',
       twitter: '#',
