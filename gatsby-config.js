@@ -25,7 +25,7 @@ module.exports = {
       telegram: '#',
       twitter: 'Protocols4Human',
       github: 'ProtocolsForHumanity',
-      rss: '#',
+      rss: '/rss.xml',
       vk: '#',
     },
   },
