@@ -23,7 +23,7 @@ module.exports = {
       name: 'Protocols for Humanity',
       email: '#',
       telegram: '#',
-      twitter: '#',
+      twitter: 'https://twitter.com/Protocols4Human',
       github: 'https://github.com/ProtocolsForHumanity',
       rss: '#',
       vk: '#',
